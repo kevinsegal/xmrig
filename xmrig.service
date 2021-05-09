@@ -1,0 +1,18 @@
+# to be placed in /etc/systemd/system/xmrig.service
+[Unit]
+Description=xmrig miner
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+StandardOutput=journal
+StandardError=journal
+
+ExecStart=/home/ubuntu/xmrig/build/xmrig --config=/home/ubuntu/xmrig/config.json
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

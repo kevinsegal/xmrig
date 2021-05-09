@@ -1,0 +1,31 @@
+{
+    "autosave": true,
+    "randomx": {
+        "1gb-pages": true,
+        "wrmsr": false
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "priority": 5,
+        "memory-pool": true,
+        "yield": false
+    },
+    "opencl": false,
+    "cuda": false,
+    "log-file": null,
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": "rx/arq",
+            "url": "ca.arqma.herominers.com:10640",
+            "user": "ar3CwsWoy8S6EEbBBLDVNDJzJpAeQEKSrU22GVj97X1mdfbq21nFpyLKooKE1yMtfSLoT8zZxpxuMSvoSZPDqTf82r19VmpiM",
+            "pass": "warden",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true
+        }
+    ]
+}
