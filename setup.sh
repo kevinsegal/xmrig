@@ -2,7 +2,7 @@
 cd
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install git build-essential cmake automake libtool autoconf -y
+sudo apt-get install build-essential cmake automake libtool autoconf -y
 mkdir build
 cd scripts
 ./build_deps.sh
